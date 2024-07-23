@@ -1,0 +1,15 @@
+.row {
+    display:flex;
+}
+
+.cell {
+    border: 1px black solid;
+    padding: 2px;
+    width: 100px;
+    height: 100px;
+}
+
+.cell-disabled {
+    content-visibility: hidden;
+    background-color: black;
+}
